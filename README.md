@@ -20,7 +20,7 @@ git clone https://github.com/kschuahan/WeatherApp
 
 cd WeatherApp
 
-To start Metro, run the following command from the _root_ of your React Native project:
+# To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
 # using npm
