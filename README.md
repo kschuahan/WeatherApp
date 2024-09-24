@@ -1,12 +1,20 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Weather App
 
-# Getting Started
+A React Native weather application that allows users to search for current weather conditions and a 5-day forecast for any city. This project uses the OpenWeatherMap API to fetch weather data and implements state management using Redux, navigation using React Navigation, and data caching using AsyncStorage.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Search for weather by city name
+- Display current weather conditions (temperature, humidity, wind speed, weather description)
+- Display 5-day weather forecast (daily high/low temperatures, weather conditions)
+- Navigation between different views using React Navigation
+- State management using Redux and Redux Thunk for asynchronous API calls
+- Caching weather data using AsyncStorage to reduce API calls
+- Unit testing using Jest and React Native Testing Library
+- Object-Oriented Programming principles applied in design
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+
+
 
 To start Metro, run the following command from the _root_ of your React Native project:
 
@@ -28,9 +36,7 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 # using npm
 npm run android
 
-# OR using Yarn
-yarn android
-```
+
 
 ### For iOS
 
@@ -38,9 +44,6 @@ yarn android
 # using npm
 npm run ios
 
-# OR using Yarn
-yarn ios
-```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
@@ -58,22 +61,3 @@ Now that you have successfully run the app, let's modify it.
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
