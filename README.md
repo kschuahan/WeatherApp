@@ -14,13 +14,13 @@ A React Native weather application that allows users to search for current weath
 - Object-Oriented Programming principles applied in design
 
 
-# Clone the App
+## Clone the App
 
 git clone https://github.com/kschuahan/WeatherApp
 
 cd WeatherApp
 
-# To start Metro, run the following command from the _root_ of your React Native project:
+## To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
 # using npm
