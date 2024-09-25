@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 
 const ForecastScreen = () => {
     const forecast = useSelector((state: any) => state.weather.forecast);
+console.log(forecast);
 
     return (
         <View style={{ padding: 20 }}>
@@ -13,6 +14,8 @@ const ForecastScreen = () => {
                     <Text>Max Temperature: {day.tempMax} °C</Text>
                     <Text>Min Temperature: {day.tempMin} °C</Text>
                     <Text>Condition: {day.description}</Text>
+                    <Text>Timing: {day.date}</Text>
+
                 </View>
             ))}
         </View>
