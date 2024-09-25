@@ -4,13 +4,13 @@
 A mobile application developed using React Native that integrates with the Weather App API to provide users with current weather conditions and a 5-day weather forecast. The app is built using TypeScript for type safety and Redux for state management.
 
 ## Features
-Search for weather information by city name.
-View current weather conditions including temperature, humidity, wind speed, and a weather 3. description.
-View a 5-day weather forecast with daily temperature highs, lows, and weather conditions.
-Caching weather data to optimize API requests.
-Navigation between screens using React Navigation.
-Code written with clean architecture and object-oriented design principles.
-Unit tests implemented using Jest and React Native Testing Library.
+- Search for weather information by city name.
+- View current weather conditions including temperature, humidity, wind speed, and a weather 3. description.
+- View a 5-day weather forecast with daily temperature highs, lows, and weather conditions.
+- Caching weather data to optimize API requests.
+- Navigation between screens using React Navigation.
+- Code written with clean architecture and object-oriented design principles.
+- Unit tests implemented using Jest and React Native Testing Library.
 
 ## Technologies Used
 - React Native
@@ -49,12 +49,11 @@ WeatherForecastingApp/
 ```
 ## Prerequisites
 Before you begin, ensure you have the following installed:
-```plaintext
 
 Node.js >=18
 React Native CLI
 Android Studio (for Android development) or Xcode (for iOS development)
-```
+
 
 # Installation
 
