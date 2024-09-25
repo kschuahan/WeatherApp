@@ -12,6 +12,41 @@ A mobile application developed using React Native that integrates with the Weath
 6. Code written with clean architecture and object-oriented design principles.
 7. Unit tests implemented using Jest and React Native Testing Library.
 
+## Technologies Used
+- React Native
+- TypeScript
+- Redux for state management
+- Axios for API requests
+- React Navigation for navigation
+- Jest and React Native Testing Library for testing
+
+## Project Structure
+```plaintext
+WeatherForecastingApp/
+├── src/
+│   ├── navigation/              # Navigation setup
+│   │   └── StackNavigation.tsx  # Main navigation
+│   ├── pages/                   # Screens for the app
+│   │   ├── HomeScreen.tsx       # Home screen
+│   │   └── ForecastScreen.tsx   # Forecast screen
+│   ├── redux/                   # Redux setup
+│   │   ├── reducer/             # Reducers
+│   │   │   └── index.tsx        # RootReducer
+│   │   │   └── weatherReducer.tsx # Weather reducer
+│   │   │   └── weatherActions.tsx # Weather actions
+│   │   └── store.tsx             # Redux store configuration
+├── tests/                       # Test files
+│   ├── Navigation.test.tsx      # Navigation tests
+│   ├── HomeScreen.test.tsx      # Home screen tests
+│   ├── ForecastScreen.test.tsx  # Forecast screen tests
+│   ├── weatherReducer.test.ts   # Weather reducer tests
+│   └── weatherActions.test.ts   # Weather action tests
+├── App.tsx                      # Main app component
+├── package.json                 # Project metadata and dependencies
+├── tsconfig.json                # TypeScript configuration
+└── README.md                    # Project documentation
+
+
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 

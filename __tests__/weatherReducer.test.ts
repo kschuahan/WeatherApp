@@ -1,4 +1,4 @@
-import weatherReducer from "../../../src/redux/reducer/weatherReducer";
+import weatherReducer from "../src/redux/reducer/weatherReducer";
 
 describe('weatherReducer', () => {
   const initialState = {

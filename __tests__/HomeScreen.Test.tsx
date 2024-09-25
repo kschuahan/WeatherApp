@@ -2,8 +2,8 @@ import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
 import configureStore from 'redux-mock-store';
 import { Provider } from 'react-redux';// Action to be dispatched
-import { fetchWeather } from '../../src/redux/reducer/weatherActions';
-import HomeScreen from '../../src/pages/HomeScreen';
+import { fetchWeather } from '../src/redux/reducer/weatherActions';
+import HomeScreen from '../src/pages/HomeScreen';
 
 // Create a mock store with redux-mock-store
 const mockStore = configureStore([]);
