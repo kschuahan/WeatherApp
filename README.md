@@ -4,13 +4,13 @@
 A mobile application developed using React Native that integrates with the Weather App API to provide users with current weather conditions and a 5-day weather forecast. The app is built using TypeScript for type safety and Redux for state management.
 
 ## Features
-1. Search for weather information by city name.
-2. View current weather conditions including temperature, humidity, wind speed, and a weather 3. description.
-3. View a 5-day weather forecast with daily temperature highs, lows, and weather conditions.
-4. Caching weather data to optimize API requests.
-5. Navigation between screens using React Navigation.
-6. Code written with clean architecture and object-oriented design principles.
-7. Unit tests implemented using Jest and React Native Testing Library.
+Search for weather information by city name.
+View current weather conditions including temperature, humidity, wind speed, and a weather 3. description.
+View a 5-day weather forecast with daily temperature highs, lows, and weather conditions.
+Caching weather data to optimize API requests.
+Navigation between screens using React Navigation.
+Code written with clean architecture and object-oriented design principles.
+Unit tests implemented using Jest and React Native Testing Library.
 
 ## Technologies Used
 - React Native
@@ -49,24 +49,27 @@ WeatherForecastingApp/
 ```
 ## Prerequisites
 Before you begin, ensure you have the following installed:
+```plaintext
 
 Node.js >=18
 React Native CLI
 Android Studio (for Android development) or Xcode (for iOS development)
-
+```
 
 # Installation
 
 ## Clone the repository:
+```plaintext
 
 git clone https://github.com/kschuahan/WeatherApp
 
 cd WeatherApp
-
+```
 ## Install the dependencies:
+```plaintext
 
 npm install
-
+```
 ## Set up environment variables:
 
 Replace the placeholder your-api-key in src/redux/weatherActions.tsx with your actual API key from OpenWeatherMap:
@@ -74,22 +77,27 @@ Replace the placeholder your-api-key in src/redux/weatherActions.tsx with your a
 ## Running the app:
 
 ### For Android:
+```plaintext
 
 npx react-native run-android
-
+```
 ### For iOS:
-npx react-native run-ios
+```plaintext
 
+npx react-native run-ios
+```
 # Running Tests
 
 ### You can run the tests by executing the following command:
+```plaintext
 
 npm run test
-
+```
 ### To generate a code coverage report, run:
+```plaintext
 
 npm run test -- --coverage
-
+```
 
 
 
