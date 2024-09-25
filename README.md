@@ -46,7 +46,7 @@ WeatherForecastingApp/
 ├── tsconfig.json                # TypeScript configuration
 └── README.md                    # Project documentation
 
-
+```
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 
